@@ -54,7 +54,7 @@
             </div>
         {% else %}
             <p class="text-muted">У вас пока нет задач.</p>
-            <a href="/task/new" class="btn btn-outline-primary">Создать первую задачу</a>
+            <a href="{{ url_for('task_create') }}" class="btn btn-outline-primary">Создать первую задачу</a>
         {% endif %}
     </div>
 
